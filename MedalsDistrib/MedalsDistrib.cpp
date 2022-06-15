@@ -21,7 +21,7 @@ int main()
 	mt1["POL"][MedalRow::GOLD] = 4;
 	mt1["POL"][MedalRow::SILVER] = 2;
 	mt1.print();
-	// создаем константную копию таблицы №1
+	// создаем константную копию таблицы №1  
 	std::cout << "\nMedals table #2:\n";
 	const MedalsTable mt2{ mt1 };
 	mt2.print();
